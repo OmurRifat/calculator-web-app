@@ -16,22 +16,22 @@ function App() {
           <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-orange-500 font-bold bg-gray-600 rounded-lg py-2'>AC</div>
           <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("X") } } className=' text-orange-500 font-extrabold bg-purple-600 rounded-lg py-2'>X</div>
           <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("%") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>%</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>/</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>7</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>8</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>9</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>*</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>4</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>5</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>6</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>-</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>1</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>2</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>3</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>+</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>0</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>.</div>
-          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("AC") } } className=' text-white font-bold rounded-lg py-2 col-span-2 bg-orange-500'>=</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("/") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>/</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(7) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>7</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(8) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>8</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(9) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>9</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("*") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>*</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(4) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>4</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(5) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>5</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(6) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>6</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("-") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>-</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(1) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>1</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(2) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>2</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(3) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>3</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("+") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>+</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(0) } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>0</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick(".") } } className=' text-white font-bold bg-purple-600 rounded-lg py-2'>.</div>
+          <div style={ { cursor: "pointer" } } onClick={ () => { handleBtnClick("=") } } className=' text-white font-bold rounded-lg py-2 col-span-2 bg-orange-500'>=</div>
         </div>
       </div>
     </div>
