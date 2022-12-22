@@ -1,9 +1,23 @@
+import { type } from '@testing-library/user-event/dist/type';
+import { useState, useEffect } from 'react';
 import './App.css';
 import './components/calculator.css'
 
 function App() {
+  let number = 0;
+  const [storedNumber, setStoredNumber] = useState(0);
   const handleBtnClick = (e) => {
-    console.log(e);
+    console.log(typeof (e));
+    if (typeof (e) === "number") {
+      // number = e;
+      setStoredNumber(e);
+    }
+    console.log(storedNumber)
+    if (typeof (e) === "string") {
+      if (e === "+") {
+
+      }
+    }
   }
   return (
     <div className="App flex h-screen justify-center items-center flex-col">
